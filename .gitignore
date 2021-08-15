@@ -1,0 +1,13 @@
+# idea
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# maven
+target/
+
+# mac
+.DS_Store
+.flattened-pom.xml

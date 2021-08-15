@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.ooknight.universe.core.client.web.SecurityAutoConfiguration,\
+  io.github.ooknight.universe.core.client.web.SecurityMethodAutoConfiguration

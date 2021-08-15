@@ -1,0 +1,4 @@
+org.springframework.boot.SpringApplicationRunListener=\
+  io.github.ooknight.universe.core.client.web.WebRunListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.ooknight.universe.core.client.web.WebAutoConfiguration
