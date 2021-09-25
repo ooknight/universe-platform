@@ -41,7 +41,7 @@ public class SecureRequestBodyAdvice extends RequestBodyAdviceAdapter {
         //
         String timestamp = message.getHeaders().getFirst(Constant.HEADER_NAME_TIMESTAMP);
         Assert.notNull(timestamp, "not found timestamp in header");
-        Assert.isTrue(Long.parseLong(timestamp) < x.timestamp.now() + properties.getExpire().toMillis(), "timestamp is expire");
+        Assert.isTrue(Long.parseLong(timestamp) < x.timestamp.now() + properties.getExpire().toMillis(), "request is expire");
         //
         // 2. 检验签名
         //

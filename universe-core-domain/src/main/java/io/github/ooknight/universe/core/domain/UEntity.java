@@ -1,7 +1,5 @@
 package io.github.ooknight.universe.core.domain;
 
-import io.github.ooknight.universe.support.utils.Bean;
-
 import io.ebean.annotation.SoftDelete;
 import io.ebean.annotation.WhenCreated;
 import io.ebean.annotation.WhenModified;
@@ -13,7 +11,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @MappedSuperclass
-public abstract class UEntity implements Bean {
+public abstract class UEntity implements Serializable {
 
     @Id
     @Column(name = "id", updatable = false)

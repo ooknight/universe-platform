@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.ooknight.universe.support.ebean.autoconfigure.EbeanAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.ooknight.universe.support.ebean.autoconfigure.EbeanAutoConfiguration

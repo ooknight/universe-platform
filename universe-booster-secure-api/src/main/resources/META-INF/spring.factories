@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.ooknight.universe.support.secure.api.configure.SecureApiAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.ooknight.universe.support.secure.api.configure.SecureApiAutoConfiguration
